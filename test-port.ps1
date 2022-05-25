@@ -1,5 +1,5 @@
 ﻿$ips = Get-Content ./ips.txt
-$ports = (1..1000)
+$ports = (1..10000)
 
 
 foreach (${ip} in ${ips}) {
